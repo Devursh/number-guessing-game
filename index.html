@@ -14,21 +14,25 @@
     <main class="card">
         <i class="fa-solid fa-bullseye main-icon"></i>
         <h1 class="heading">Guess the Number</h1>
-        <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+        <p class="heading-paragraph">I'm thinking of a number between 1 and 100. <br>Can you guess it?</p>
         <div class="buttons">
-            <input type="text" placeholder="Enter 1-100" class="guess-input">
+            <input type="text" placeholder="Enter a number (1-100)" class="guess-input">
             <button class="guess-button">Guess</button>
         </div>
-        <div>
-            <i class="fa-regular fa-lightbulb"></i>
+        <div class="important-reminder">
+            <i class="fa-regular fa-lightbulb lightbulb-icon"></i>
             <p>Enter a number and make your first guess!</p>
         </div>
-        <div>
-            <i class="fa-solid fa-rotate-left"></i>
-            <p>Attempts</p>
-            <p class="attempts">0</p>
+        <div class="horizontal-info">
+            <div class="attempts-container">
+                <i class="fa-solid fa-rotate-left rotate-left-icon"></i>
+                <div class="attempts-text">
+                    <p class="attempts-heading">Attempts</p>
+                    <p class="attempts-counter">0</p>
+                </div>
+            </div>
+            <button class="new-game-button"><i class="fa-solid fa-rotate-right rotate-right-icon"></i>New game</button>
         </div>
-        <button class="new-game-button">New game</button>
     </main>
 </body>
 </html>
