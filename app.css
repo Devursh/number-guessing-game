@@ -17,6 +17,10 @@ body{
     height: 100vh;
 }
 
+input, button{
+    font-family: "Inter", sans-serif;
+}
+
 .card{
     background-color: #FFFFFF;
     border-radius: 8px;
@@ -28,10 +32,118 @@ body{
     justify-content: stretch;
     align-items: center;
     flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 2rem;
 }
 
-.main-icon
+.main-icon{
+    font-size: 4.8rem;
+}
 
 .heading{
     font-size: 3.6rem;
+    color: #111827;
+}
+
+.heading-paragraph{
+    color: #64748B;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.guess-input{
+    padding: 1.5rem 1.5rem;
+    border: 1px solid #C7D7F2;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+    flex-grow: 1;
+}
+
+.guess-button{
+    background-color: #3563F5;
+    border-radius: 8px;
+    border: 1px solid #3563F5;
+    padding: 1.5rem 4rem;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.important-reminder{
+    background-color: #EAF2FF;
+    color: #3563F5;
+    border-radius: 8px;
+    border: 1px solid #C7D7F2;
+    width: 100%;
+    padding: 1.5rem 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.lightbulb-icon{
+    font-size: 1.6rem;
+}
+
+.horizontal-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.attempts-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.rotate-left-icon{
+    background-color: #E8EDF5;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attempts-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.attempts-heading{
+    color: #64748B;
+    font-size: 1.4rem;
+}
+
+.attempts-counter{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.new-game-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: 1px solid #C7D7F2;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #64748B;
 }
