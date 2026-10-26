@@ -78,6 +78,10 @@ input, button{
     font-weight: bold;
 }
 
+.guess-button:disabled{
+    cursor: default;
+}
+
 .important-reminder{
     background-color: #EAF2FF;
     color: #3563F5;
