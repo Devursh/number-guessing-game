@@ -12,7 +12,9 @@ A number guessing game built with HTML, CSS, and JavaScript. The goal is to gues
 
 ## Demo
 Demo the game here: [https://devursh.github.io/number-guessing-game/]
-How it looks: (images/game-screenshot.png)
+
+How it looks: 
+<img width="1917" height="866" alt="game-screenshot" src="https://github.com/user-attachments/assets/e80a1f4f-786d-47f0-bca2-e0bd5dd1584d" />
 
 ## Technologies Used
 - HTML
