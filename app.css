@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #F3F6FC;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px 0 #ffffffb7;
+    height: 50rem;
+    width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-icon
+
+.heading{
+    font-size: 3.6rem;
+}
