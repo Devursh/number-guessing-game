@@ -25,8 +25,8 @@ input, button{
     background-color: #FFFFFF;
     border-radius: 8px;
     box-shadow: 0 5px 5px 0 #ffffffb7;
-    height: 50rem;
-    width: 50rem;
+    height: 50vh;
+    width: 50vh;
     margin: 0 auto;
     display: flex;
     justify-content: stretch;
@@ -88,7 +88,7 @@ input, button{
     border-radius: 8px;
     border: 1px solid #C7D7F2;
     width: 100%;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 3rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -105,6 +105,8 @@ input, button{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
 }
 
 .attempts-container{
@@ -150,4 +152,136 @@ input, button{
     border-radius: 8px;
     background-color: #FFFFFF;
     color: #64748B;
+    font-size: 1.4rem;
+}
+
+.reminder-paragraph{
+    font-size: 1.4rem;
+    color: #64748B;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (max-width: 170rem){
+    html{
+        font-size: 97.5%;
+    }
+
+    .card{
+        height: 60vh;
+        width: 60vh;
+    }
+}
+
+@media (max-width: 140.75rem){
+}
+
+/* @media (max-width: 125rem){
+    .card{
+        height: 38vh;
+        width: 38vh;
+    }
+} */
+
+@media (max-width: 110.7rem){
+    html{
+        font-size: 92.5%;
+    }
+
+    .card{
+        height: 57vh;
+        width: 57vh;
+        padding-bottom: 1.5rem;
+    }
+
+    .important-reminder{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 98rem){
+    .card{
+        height: 54vh;
+        width: 54vh;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 82.9rem){
+    html{
+        font-size: 85%;
+    }
+
+    .card{
+        height: 50vh;
+        width: 50vh;
+    }
+
+    .important-reminder{
+        padding: 1.5rem 3rem;
+    }
+}
+
+@media (max-width: 77rem){
+    .card{
+        height: 50vh;
+        width: 50vh;
+    }
+}
+
+@media (max-height: 70rem) and (max-width: 180rem){
+    html{
+        font-size: 77.5%;
+    }
+
+    .card{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 48rem){
+    .card{
+        height: 85vw;
+        width: 85vw;
+    }
+}
+
+@media (max-width: 43.75rem){
+    html{
+        font-size: 77.5%;
+    }
+
+    .card{
+        height: auto;
+    }
+}
+
+@media (max-width: 38.2rem){
+    html{
+        font-size: 72.5%;
+    }
+
+    .buttons{
+        flex-direction: column;
+    }
+
+    .main-icon{
+        font-size: 4.2rem;
+    }
+
+    .heading{
+        font-size: 3.2rem;
+    }
+
+    .reminder-paragraph{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 35rem){
+    html{
+        font-size: 62.5%;
+    }
 }
